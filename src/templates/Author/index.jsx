@@ -9,14 +9,16 @@ export default ({
 }) => (
   <Layout>
     <div>
-      <h3>{id}</h3>
-      <p>{bio}</p>
+      <h2>{id}</h2>
+      <a href={`https://twitter.com/${twitter}/`} target="_blank">
+        {`@${twitter}`}
+      </a>
       <p>
-        <a href={`https://twitter.com/${twitter}/`} target="_blank">
-          {twitter}
-        </a>
+        <em>{bio}</em>
       </p>
     </div>
+    <hr />
+    <p>{`Posted by ${id}: `}</p>
     {postNodes.map(({ node: post }, idx) => (
       <div key={post.id}>
         <a href={post.fields.slug}>{post.frontmatter.title}</a>
