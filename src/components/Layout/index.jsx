@@ -12,7 +12,9 @@ export default class MainLayout extends React.Component {
         <Helmet>
           <meta name="description" content={config.siteDescription} />
         </Helmet>
-        <Link to="/">{config.siteTitle}</Link>
+        <h1>
+          <Link to="/">{config.siteTitle}</Link>
+        </h1>
         {children}
       </div>
     );
