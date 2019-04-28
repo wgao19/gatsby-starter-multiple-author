@@ -3,7 +3,7 @@ const config = {
   siteTitleShort: "Multi Author Starter", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
   siteTitleAlt: "Gatsby Multi Author Starter", // Alternative site title for SEO.
   siteLogo: "/logos/logo-1024.png", // Logo used for SEO and manifest.
-  siteUrl: "", // Domain of your website without pathPrefix.
+  siteUrl: "https://gatsby-starter-multiple-author.netlify.com/", // Domain of your website without pathPrefix.
   pathPrefix: "/", // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
   siteDescription: "A Gatsby starter for blogs of multiple authors.", // Website description used for RSS feeds/meta description tag.
   siteRss: "/rss.xml", // Path to the RSS file.
@@ -30,11 +30,6 @@ const config = {
       label: "Twitter",
       url: "https://twitter.com/wgao19",
       iconClassName: "fa fa-twitter"
-    },
-    {
-      label: "Email",
-      url: "mailto:wgao19@gmail.com",
-      iconClassName: "fa fa-envelope"
     }
   ],
   copyright: "Copyright © 2019. Advanced User", // Copyright string for the footer of the website and RSS feed.
