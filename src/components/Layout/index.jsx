@@ -1,5 +1,6 @@
 import React from "react";
 import Helmet from "react-helmet";
+import { Link } from "gatsby";
 import config from "../../../data/SiteConfig";
 import "./index.css";
 
@@ -11,6 +12,7 @@ export default class MainLayout extends React.Component {
         <Helmet>
           <meta name="description" content={config.siteDescription} />
         </Helmet>
+        <Link to="/">{config.siteTitle}</Link>
         {children}
       </div>
     );

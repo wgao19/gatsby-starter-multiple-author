@@ -1,15 +1,16 @@
 import React from "react";
+import Layout from "../../components/Layout";
 
 export default ({
   data: {
     allAuthorYaml: { edges: authorNodes }
   }
 }) => (
-  <div>
+  <Layout>
     {authorNodes.map(({ node: author }, index) => (
       <div key={`author-${author.id}`}>{author.id}</div>
     ))}
-  </div>
+  </Layout>
 );
 
 export const pageQuery = graphql`

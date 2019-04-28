@@ -1,6 +1,6 @@
 {
-  "name": "gatsby-curious-community",
-  "description": "Curious cats about Gatsby",
+  "name": "gatsby-starter-multiple-author",
+  "description": "A Gatsby starter that supports multiple author.",
   "version": "1.1.0",
   "author": "Wei Gao <wgao19@gmail.com>",
   "dependencies": {
