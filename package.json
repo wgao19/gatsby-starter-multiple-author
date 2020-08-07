@@ -28,7 +28,7 @@
     "gatsby-transformer-yaml": "^2.1.12",
     "lodash": "^4.17.4",
     "moment": "^2.23.0",
-    "prismjs": "^1.15.0",
+    "prismjs": "^1.21.0",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-helmet": "^5.2.0",
